@@ -1,2 +1,2 @@
-#An AI for KOSMOS
+# An AI for KOSMOS
 Brest Ocean Hackathon

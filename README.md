@@ -1,4 +1,6 @@
 # An AI for KOSMOS
 ## 2021 Brest Ocean Hackathon
 
-git@github.com:domipelletier/KOSMOS.git
+<p align="center">
+<img src="KOSMOS.png" style="vertical-align:middle" width="600" height='400' class='center' alt='logo'>
+</p>

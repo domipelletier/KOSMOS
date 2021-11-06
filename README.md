@@ -1,2 +1,4 @@
 # An AI for KOSMOS
-Brest Ocean Hackathon
+## 2021 Brest Ocean Hackathon
+
+git@github.com:domipelletier/KOSMOS.git

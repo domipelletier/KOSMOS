@@ -8,8 +8,8 @@
 ### Installation
 
 pre-requisites:
-- miniconda3
-- python3
+- python3 (Installation [link](https://www.python.org/downloads/))
+- miniconda3 (Installation [link](https://docs.conda.io/en/latest/miniconda.html))
 
 For the whole project, you need to create and use a virtual environment.  
 You can use any version of python3 superior to 3.6. We recommend to use at least 3.9.
@@ -24,15 +24,16 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c cond
 pip install -r requirements.txt
 ```
 
+
+### Training Detection
+
+To train the model we used for detection, you need to launch the training script.  
+You can find it in the `detection` folder.
+
 ### Testing
 
 Both files `opencv_image.py` and `opencv_video.py` are provided to test classification
 and detection models, respectively on a single image or a video.
-
-### Training
-
-To train the model we used for detection, you need to launch the training script.  
-You can find it in the `detection` folder.
 
 ### Classification
 

@@ -1,7 +1,8 @@
 #!/usr/bin/python
 """ 🪐 AI for KOSMOS - Ocean Hackathon Brest 2021
 
-File used to run detection and classification models on a picture.
+File used to run detection and classification models on a picture. Partly inspired from `here <https://wendeehsu.medium.com/instance-segmentation-with-detectron2-127fbe01b20b>`_
+
 
 authors:
   @Ludivine Maintier
@@ -44,7 +45,7 @@ cfg.SOLVER.IMS_PER_BATCH = 2     # in 1 iteration the model sees 2 images
 cfg.SOLVER.BASE_LR = 0.00025     # learning rate
 cfg.SOLVER.MAX_ITER = 450        # number of iteration
 cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 128     # number of proposals to sample for training
-cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1  # only has one class (mango)
+cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1  # only has one class (fish)
 
 cfg.MODEL.DEVICE = "cpu"
 cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth")

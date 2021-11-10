@@ -1,7 +1,7 @@
 #!/usr/bin/python
 """ 🪐 AI for KOSMOS - Ocean Hackathon Brest 2021
 
-File used to train the detection model with detectron2 framework.
+File used to train the detection model with detectron2 framework. Inspired from `here <https://wendeehsu.medium.com/instance-segmentation-with-detectron2-127fbe01b20b>`_
 
 authors:
   @Thomas Chaigneau

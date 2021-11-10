@@ -1,7 +1,8 @@
 #!/usr/bin/python
 """ 🪐 AI for KOSMOS - Ocean Hackathon Brest 2021
 
-File used to run detection and classification models on a video stream.
+File used to run detection and classification models on a video stream. Partly inspired from `here <https://wendeehsu.medium.com/instance-segmentation-with-detectron2-127fbe01b20b>`_
+
 
 authors:
   @Ludivine Maintier
